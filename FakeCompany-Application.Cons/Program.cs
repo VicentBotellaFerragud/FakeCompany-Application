@@ -23,6 +23,9 @@ namespace FakeCompany_Application.Cons
             List<Employee> employees = context.Employees.ToList();
 
             Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("Employees from the Fake Company:");
+            Console.WriteLine("");
             foreach (var employee in employees)
             {
                 Console.WriteLine(employee.EmployeeName);
